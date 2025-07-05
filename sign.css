@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+/* sapgreen-: #008080
+ lightblue: #0d6efd*/
+
+
+.container-sign{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.contimg img{
+    width: 550px;
+}
+.container-sign .form{
+    /* border: 1px solid black; */
+    width: 65vw;
+    padding: 3vw 4vw;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.container-sign .head h2{
+    text-align: center;
+    margin-bottom: 4vw;
+    color: #339f9f;
+}
+.details input{
+    /* height: 100%; */
+    /* min-width: 60%; */
+    outline: none;
+    /* border: none; */
+    /* padding: 0 30px; */
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid rgba(0,0,0,0.2);
+    height: 2vw;
+    transition: all 0.3s ease;
+    margin-bottom: 2.2vw;
+}
+.place{
+    font-style: italic;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.details label{
+    font-size: 1.2vw;
+    color: rgb(180, 70, 31);
+}
+#num{
+    min-width:50% ;
+}
+#col{
+    min-width: 55%;
+}
+#id{
+    min-width: 40%;
+}
+#file{
+  padding: 0 0 7px 0;
+}
+.button-input-box a{
+  border: 1px solid;
+  background-color: #14a3a3;
+  border-radius: 6px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button-input-box a:hover{
+  background: #067272;
+}
+
+  #doc{
+    color: rgb(27, 25, 1);
+  }
+  .foot-links li a:hover{
+    color: white;
+  }

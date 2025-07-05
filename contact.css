@@ -1,0 +1,227 @@
+
+#contact {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 6vw 0;
+    /* font: 300 60px 'Oswald', sans-serif; */
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 6vw;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    border-radius: 9px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 4vw;
+    /* position: relative; */
+    width: 60vw;
+    flex-wrap: wrap;
+    /* max-width: ; */
+    background-color: #84dadabe;
+    
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    width: 25vw;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  .fa-xs {
+    font-size: 1.7vw;
+    line-height: .08333em;
+    vertical-align: .125em;
+}
+  .form-control, 
+  textarea {
+    width: 25vw;
+    background-color: white;
+    color: #fff;
+    letter-spacing: 0.4vw;
+    text-align: center;
+  }
+  
+  .send-button {
+    margin-top: 3vw;
+    height: 5vw;
+    width: 25vw;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+  
+  .alt-send-button {
+    width: 25vw;
+    height: 5vw;
+    transition: all .2s ease-in-out;
+  }
+  
+  .send-text {
+    display: block;
+    /* margin-top: 1vw; */
+    font: 700 1vw 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .alt-send-button:hover {
+    transform: translate3d(0px, -20px, 0px);
+  }
+  
+  /* Begin Right Contact Page */
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    /* margin-left: -5vw; */
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  
+  .contact-text {
+    font: 300 1.2vw 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: black;
+  }
+  
+  .place {
+    margin-left: 6vw;
+  }
+  
+  .phone {
+    margin-left: 6vw;
+  }
+  
+  .gmail {
+    margin-left: 6vw;
+    /* padding-bottom: 6vw; */
+  }
+  
+  .contact-text a {
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    font: 200 1vw 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 4px;
+  }
+  
+  hr {
+    margin-top: 6vw;
+    border-color: rgba(255,255,255,.6);
+  }
+  
+  @media screen and (max-width: 800px){
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .place, .phone{
+      font-size: 10px;
+    }
+    .gmail{
+      font-size: 1.5vw;
+    }
+    
+  }
+  /* Begin Media Queries*/
+  /* @media screen and (max-width: 850px) {
+    
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+    .social-media-list li {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  } */
+/*   
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+ main
+  }
+  .foot-links li a:hover{
+    color: white;
+  }
+
+  } */
+ 
